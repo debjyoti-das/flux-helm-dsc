@@ -19,7 +19,7 @@ spec:
       namespace: dev
       replicaCount: 1
       container:
-        image: prasantabarik/store-cluster-service:13
+        image: prasantabarik/store-cluster-service:477
         port: 8093
       service:
         type: ClusterIP
